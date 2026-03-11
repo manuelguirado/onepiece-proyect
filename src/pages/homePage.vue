@@ -31,12 +31,12 @@ const filteredCharacters = computed(() =>
 
     <div class="flex justify-center mb-8">
       <div class="relative w-full max-w-md">
-        <Search class="absolute left-3 top-3 w-5 h-5 text-gray-400" />
+        <Search class="absolute left-2 top-3 w-5 h-5 text-gray-400" />
         <input
           v-model="search"
           type="text"
-          placeholder="Search character..."
-          class="search-input pl-10"
+          placeholder="  Search character..."
+          class="search-input pl-10 "
         />
       </div>
     </div>
