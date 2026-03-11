@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+body {
+  @apply bg-gray-950 text-white;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 py-8;
+}
+
+.characters-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.character-card {
+  @apply bg-gray-900 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow;
+}
+
+.fruit-image {
+  @apply w-full h-40 object-cover rounded-md mb-4;
+}
+
+.search-input {
+  @apply w-full max-w-md px-4 py-2 rounded-lg bg-gray-800 text-white border border-gray-700 focus:border-blue-500 focus:outline-none mb-6;
+}
