@@ -99,6 +99,8 @@ const filteredCharacters = computed(() =>
           </p>
         </div>
       </div>
+    
     </div>
+
   </div>
 </template>
